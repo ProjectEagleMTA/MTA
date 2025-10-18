@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-16"?>
+<GameDefinitionFile xmlns:baseTypes="urn:schemas-microsoft-com:GamesExplorerBaseTypes.v1" xmlns="urn:schemas-microsoft-com:GameDescription.v1">
+    <GameDefinition gameID="{119D0ADB-56AF-4C85-9037-26564C0ACD57}">
+        <Name>Multi Theft Auto</Name>
+        <Description>Play San Andreas with an all new Multiplayer twist! Multi Theft Auto is an open-source game engine that adds full multi-player network play functionality to Rockstar North's Grand Theft Auto game series, in which this functionality is not originally found.</Description>
+        <ReleaseDate>2003-02-09</ReleaseDate>
+        <Genres>
+            <Genre>Action</Genre>
+        </Genres>
+        <Ratings>
+            <Rating ratingSystemID="{36798944-B235-48ac-BF21-E25671F597EE}" ratingID="{E2681CD6-318A-4935-8275-AF657045C333}">
+                <Descriptor descriptorID="{6AB00271-515B-4a4d-8A6E-9E66BF96A437}" />
+                <Descriptor descriptorID="{F110F831-9412-40c9-860A-B489407ED374}" />
+            </Rating>
+            <Rating ratingSystemID="{C705DCF4-6AFE-4f4f-BC51-21807E4E5CFB}" ratingID="{B72233AA-D3F0-4258-8E32-94C99F38160E}" />
+            <Rating ratingSystemID="{30d34abd-c6b3-4802-924e-f0c9fc65022b}" ratingID="{5AD0F4EC-C8D6-45d8-A9DE-094108A693BD}" />
+            <Rating ratingSystemID="{EC290BBB-D618-4cb9-9963-1CAAE515443E}" ratingID="{75AEE0A2-8640-4a20-8DE5-EC93D8DAB219}" />
+            <Rating ratingSystemID="{5B39D1B8-ED49-4055-8A47-04B29A579AD6}" ratingID="{11F7079A-563B-4a4c-9478-156F615A78DE}">
+                <Descriptor descriptorID="{6AB00271-515B-4a4d-8A6E-9E66BF96A437}" />
+                <Descriptor descriptorID="{F110F831-9412-40c9-860A-B489407ED374}" />
+            </Rating>
+            <Rating ratingSystemID="{768BD93D-63BE-46A9-8994-0B53C4B5248F}" ratingID="{78D8CC82-372F-44e4-B70C-8944DB7BCC24}">
+                <Descriptor descriptorID="{ABE23B46-7F9F-495b-B4A9-87F41743727F}" />
+                <Descriptor descriptorID="{4BDB9E0D-53CF-4a28-865F-B315818E7627}" />
+                <Descriptor descriptorID="{D49A8F0C-B183-4a34-8D86-33F2DC0E2D6C}" />
+                <Descriptor descriptorID="{B0DEC59B-3AC4-475e-90F7-242C2A60CA71}" />
+                <Descriptor descriptorID="{E8930D9B-3E94-407c-B890-FDB5025DBCA3}" />
+            </Rating>
+            <Rating ratingSystemID="{9AAFBACD-EAB9-4946-8BE8-C4D997927C81}" ratingID="{E2681CD6-318A-4935-8275-AF657045C333}">
+                <Descriptor descriptorID="{6AB00271-515B-4a4d-8A6E-9E66BF96A437}" />
+                <Descriptor descriptorID="{F110F831-9412-40c9-860A-B489407ED374}" />
+            </Rating>
+        </Ratings>
+        <Version>
+            <VersionNumber versionNumber="1.6.0.0" />
+        </Version>
+        <WindowsSystemPerformanceRating minimum="2.0" recommended="4.0" />
+        <Developers>
+            <Developer URI="https://multitheftauto.com">MTA Team</Developer>
+        </Developers>
+        <GameExecutables>
+            <GameExecutable path="MetaUkraine GTA.exe" />
+        </GameExecutables>
+        <ExtendedProperties>
+            <GameTasks>
+                <Play>
+                    <Primary>
+                        <FileTask path="MetaUkraine GTA.exe" arguments="" />
+                    </Primary>
+                </Play>
+                <Support>
+                    <Task index="0" name="Client Manual">
+                        <URLTask Link="https://wiki.multitheftauto.com/wiki/Client_Manual" />
+                    </Task>
+                    <Task index="1" name="Client Support">
+                        <URLTask Link="https://forum.multitheftauto.com/forum/83-client/" />
+                    </Task>
+                </Support>
+            </GameTasks>
+        </ExtendedProperties>
+    </GameDefinition>
+</GameDefinitionFile>
