@@ -6,10 +6,10 @@ premake.modules.install_data = {}
 local BIN_DIR = "Bin"
 local DATA_DIR = "Shared/data/MTA San Andreas"
 
-local NET_PATH_X86_WIN = "https://mirror-cdn.multitheftauto.com/bdata/net.dll"
+local NET_PATH_X86_WIN = "net-dlls/net.dll"
 local NET_PATH_X64_WIN = "https://mirror-cdn.multitheftauto.com/bdata/net_64.dll"
 local NET_PATH_ARM64_WIN = "https://mirror-cdn.multitheftauto.com/bdata/net_arm64.dll"
-local NETC_PATH_WIN = "https://mirror-cdn.multitheftauto.com/bdata/netc.dll"
+local NETC_PATH_WIN = "net-dlls/netc.dll"
 
 local NET_PATH_X86_LINUX = "https://mirror-cdn.multitheftauto.com/bdata/net.so"
 local NET_PATH_X64_LINUX = "https://mirror-cdn.multitheftauto.com/bdata/net_64.so"
@@ -69,10 +69,10 @@ newaction {
 		end
 
 		if os.host() == "windows" then
-			local success = http.download_print_errors(NET_PATH_X86_WIN, BIN_DIR.."/server/net.dll")
+			local success = os.copyfile(NET_PATH_X86_WIN, BIN_DIR.."/server/net.dll")
 			success = success and http.download_print_errors(NET_PATH_X64_WIN, BIN_DIR.."/server/x64/net.dll")
 			success = success and http.download_print_errors(NET_PATH_ARM64_WIN, BIN_DIR.."/server/arm64/net.dll")
-			success = success and http.download_print_errors(NETC_PATH_WIN, BIN_DIR.."/MTA/netc.dll")
+			success = success and os.copyfile(NETC_PATH_WIN, BIN_DIR.."/MTA/netc.dll")
 			
 			-- A download failed
 			if not success then
