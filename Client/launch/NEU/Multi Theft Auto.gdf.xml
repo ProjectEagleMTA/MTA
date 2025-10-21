@@ -39,13 +39,13 @@
             <Developer URI="https://multitheftauto.com">MTA Team</Developer>
         </Developers>
         <GameExecutables>
-            <GameExecutable path="MetaUkraine GTA.exe" />
+            <GameExecutable path="ProjectEagle GTA.exe" />
         </GameExecutables>
         <ExtendedProperties>
             <GameTasks>
                 <Play>
                     <Primary>
-                        <FileTask path="MetaUkraine GTA.exe" arguments="" />
+                        <FileTask path="ProjectEagle GTA.exe" arguments="" />
                     </Primary>
                 </Play>
                 <Support>

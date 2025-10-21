@@ -206,10 +206,10 @@ void HandleDuplicateLaunching()
     {
         if (strcmp(lpCmdLine, "") != 0)
         {
-            HWND hwMTAWindow = FindWindow(NULL, "MetaUkraine GTA");
+            HWND hwMTAWindow = FindWindow(NULL, "ProjectEagle GTA");
 #ifdef MTA_DEBUG
             if (hwMTAWindow == NULL)
-                hwMTAWindow = FindWindow(NULL, "MetaUkraine GTA");
+                hwMTAWindow = FindWindow(NULL, "ProjectEagle GTA");
 #endif
             if (hwMTAWindow != NULL)
             {
@@ -246,7 +246,7 @@ void HandleDuplicateLaunching()
                 strMessage +=
                     _("Trouble restarting MTA:SA\n\n"
                       "If the problem persists, open Task Manager and\n"
-                      "stop the 'gta_sa.exe' and 'MetaUkraine GTA.exe' processes\n\n\n"
+                      "stop the 'gta_sa.exe' and 'ProjectEagle GTA.exe' processes\n\n\n"
                       "Try to launch MTA:SA again?");
                 if (MessageBoxUTF8(0, strMessage, _("Error") + _E("CL04"), MB_ICONWARNING | MB_YESNO | MB_TOPMOST) ==
                     IDYES)            // Trouble restarting MTA:SA

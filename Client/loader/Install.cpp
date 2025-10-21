@@ -948,7 +948,7 @@ SString CheckOnRestartCommand()
 
             deleteSourceRoot.Release();
 
-            // If a new "MetaUkraine GTA.exe" exists, let that complete the install
+            // If a new "ProjectEagle GTA.exe" exists, let that complete the install
             if (FileExists(MTA_EXE_NAME_RELEASE))
                 return "install from far " + strOperation + " " + strParameters;
 

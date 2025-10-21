@@ -91,7 +91,7 @@ CORE_API int InitializeCore()
         return 4;
 
     // Group our processes and windows under a single taskbar button
-    SetCurrentProcessExplicitAppUserModelID(L"MetaUkraine GTA");
+    SetCurrentProcessExplicitAppUserModelID(L"ProjectEagle GTA");
 
     WriteDebugEvent(SString("ModuleFileName: %s", *GetLaunchPathFilename()));
 

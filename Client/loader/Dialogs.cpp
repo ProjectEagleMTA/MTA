@@ -312,7 +312,7 @@ void ShowSplash(HINSTANCE hInstance)
     }
     else
     {
-        WindowScope window(CreateWindowEx(WS_EX_LAYERED, splashWindowClass.lpszClassName, "MetaUkraine GTA Launcher", WS_POPUP | WS_VISIBLE, 0, 0, 0, 0, NULL,
+        WindowScope window(CreateWindowEx(WS_EX_LAYERED, splashWindowClass.lpszClassName, "ProjectEagle GTA Launcher", WS_POPUP | WS_VISIBLE, 0, 0, 0, 0, NULL,
                                           NULL, hInstance, NULL));
 
         if (!window.handle)

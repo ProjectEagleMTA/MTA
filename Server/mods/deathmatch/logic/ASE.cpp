@@ -51,8 +51,8 @@ ASE::ASE(CMainConfig* pMainConfig, CPlayerManager* pPlayerManager, unsigned shor
     m_uiNumQueriesPerMinute = 0;
     m_uiTotalAtMinuteStart = 0;
 
-    m_strGameType = "MetaUkraine GTA";
-    m_strMapName = "MetaUkraine GTA";
+    m_strGameType = "ProjectEagle GTA";
+    m_strMapName = "ProjectEagle GTA";
     m_strIPList = strServerIPList;
     std::stringstream ss;
     ss << usPort;

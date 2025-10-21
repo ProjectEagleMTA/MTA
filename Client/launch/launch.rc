@@ -87,11 +87,11 @@ BEGIN
     BEGIN
         BLOCK "080904b0"
         BEGIN
-            VALUE "CompanyName", "MetaUkraine GTA"
-            VALUE "FileDescription", "MetaUkraine GTA"
+            VALUE "CompanyName", "ProjectEagle GTA"
+            VALUE "FileDescription", "ProjectEagle GTA"
             VALUE "FileVersion", "1.6.0.0"
-            VALUE "LegalCopyright", "(C) 2003 - 2023 MetaUkraine GTA"
-            VALUE "ProductName", "MetaUkraine GTA"
+            VALUE "LegalCopyright", "(C) 2003 - 2023 ProjectEagle GTA"
+            VALUE "ProductName", "ProjectEagle GTA"
             VALUE "ProductVersion", "1.6.0.0"
         END
     END

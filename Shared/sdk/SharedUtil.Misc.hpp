@@ -57,8 +57,8 @@ CDuplicateLineFilter<SReportLine> ms_ReportLineFilter;
 
 #ifdef MTA_CLIENT
 
-#define PRODUCT_REGISTRY_PATH       "Software\\MTA MetaUkraine GTA"       // HKLM
-#define PRODUCT_COMMON_DATA_DIR     "MTA MetaUkraine GTA"                 // C:\ProgramData
+#define PRODUCT_REGISTRY_PATH       "Software\\MTA ProjectEagle GTA"       // HKLM
+#define PRODUCT_COMMON_DATA_DIR     "MTA ProjectEagle GTA"                 // C:\ProgramData
 #define TROUBLE_URL1 "http://updatesa.multitheftauto.com/sa/trouble/?v=_VERSION_&id=_ID_&tr=_TROUBLE_"
 
 //
@@ -673,7 +673,7 @@ bool SharedUtil::ProcessPendingBrowseToSolution()
 
     ClearPendingBrowseToSolution();
 
-    SString strTitle("MetaUkraine GTA %s   (CTRL+C to copy)", *strErrorCode);
+    SString strTitle("ProjectEagle GTA %s   (CTRL+C to copy)", *strErrorCode);
     // Show message if set, ask question if required, and then launch URL
     if (iFlags & ASK_GO_ONLINE)
     {

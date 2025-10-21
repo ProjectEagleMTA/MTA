@@ -79,7 +79,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     ApplyDpiAwareness();
 
     // Group our processes and windows under a single taskbar button
-    SetCurrentProcessExplicitAppUserModelID(L"MetaUkraine GTA");
+    SetCurrentProcessExplicitAppUserModelID(L"ProjectEagle GTA");
 
     // Load the loader.dll and continue the load
 #ifdef MTA_DEBUG

@@ -159,11 +159,11 @@ HRESULT CProxyDirect3D9::CreateDevice(UINT Adapter, D3DDEVTYPE DeviceType, HWND 
     WriteDebugEvent(SString("    FullScreen_RefreshRateInHz:%d  PresentationInterval:0x%08x", pPresentationParameters->FullScreen_RefreshRateInHz,
                             pPresentationParameters->PresentationInterval));
 
-    // Change the window title to MetaUkraine GTA
+    // Change the window title to ProjectEagle GTA
     #ifdef MTA_DEBUG
-    SetWindowTextW(hFocusWindow, MbUTF8ToUTF16("MetaUkraine GTA").c_str());
+    SetWindowTextW(hFocusWindow, MbUTF8ToUTF16("ProjectEagle GTA").c_str());
     #else
-    SetWindowTextW(hFocusWindow, MbUTF8ToUTF16("MetaUkraine GTA").c_str());
+    SetWindowTextW(hFocusWindow, MbUTF8ToUTF16("ProjectEagle GTA").c_str());
     #endif
 
     // Detect if second call to CreateDevice
@@ -935,11 +935,11 @@ HRESULT CCore::OnPostCreateDevice(HRESULT hResult, IDirect3D9* pDirect3D, UINT A
 
     AddCapsReport(Adapter, pDirect3D, *ppReturnedDeviceInterface, true);
 
-    // Change the window title to MetaUkraine GTA
+    // Change the window title to ProjectEagle GTA
     #ifdef MTA_DEBUG
-    SetWindowTextW(hFocusWindow, MbUTF8ToUTF16("MetaUkraine GTA").c_str());
+    SetWindowTextW(hFocusWindow, MbUTF8ToUTF16("ProjectEagle GTA").c_str());
     #else
-    SetWindowTextW(hFocusWindow, MbUTF8ToUTF16("MetaUkraine GTA").c_str());
+    SetWindowTextW(hFocusWindow, MbUTF8ToUTF16("ProjectEagle GTA").c_str());
     #endif
 
     // Log graphic card name

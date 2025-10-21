@@ -565,7 +565,7 @@ ePathResult GetGamePath(SString& strOutResult, bool bFindIfMissing)
     // Registry places to look
     std::vector<SString> pathList;
 
-    // Try HKLM "SOFTWARE\\MTA MetaUkraine GTA\\Common\\"
+    // Try HKLM "SOFTWARE\\MTA ProjectEagle GTA\\Common\\"
     pathList.push_back(GetCommonRegistryValue("", "GTA:SA Path"));
 
     // Unicode character check on first one

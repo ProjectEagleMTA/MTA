@@ -26,7 +26,7 @@ CDiscordManager::CDiscordManager() : m_DiscordCore(nullptr), m_Suicide(false), m
 
     m_StoredActivity.GetAssets().SetLargeImage("logo");            // Always thing
     m_StoredActivity.GetAssets().SetSmallImage("mlogo");            // Always thing
-    m_StoredActivity.GetAssets().SetLargeText("MetaUkraine GTA");
+    m_StoredActivity.GetAssets().SetLargeText("ProjectEagle GTA");
 
     m_Initialized = true;
 }
@@ -333,7 +333,7 @@ void CDiscordManager::RegisterPlay(bool connected)
     CVARS_GET("port", port);
 
     m_StoredActivity.GetAssets().SetSmallText(SString("Під'єднаний до: %s:%d", *ipaddr, port));
-    m_StoredActivity.GetAssets().SetSmallImage("MetaUkraine GTA");
+    m_StoredActivity.GetAssets().SetSmallImage("ProjectEagle GTA");
 
     m_StoredActivity.GetTimestamps().SetStart(currentTime);
     UpdateActivity([=](EDiscordRes res) {

@@ -535,9 +535,9 @@ void CCrashDumpWriter::RunErrorTool(CExceptionInformation* pExceptionInformation
     SetDllDirectory(strMTASAPath);
 
 #ifdef MTA_DEBUG
-    #define MTA_EXE_NAME            "MetaUkraine GTA.exe"
+    #define MTA_EXE_NAME            "ProjectEagle GTA.exe"
 #else
-    #define MTA_EXE_NAME            "MetaUkraine GTA.exe"
+    #define MTA_EXE_NAME            "ProjectEagle GTA.exe"
 #endif
     SString strFile = strMTASAPath + "\\" + MTA_EXE_NAME;
     ShellExecute(NULL, "open", strFile, "install_stage=crashed", NULL, SW_SHOWNORMAL);

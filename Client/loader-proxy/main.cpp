@@ -28,11 +28,11 @@ constexpr std::wstring_view STEAM_GTA_EXE_NAME = L"gta-sa.exe";
 constexpr std::wstring_view EXPLORER_EXE_NAME = L"explorer.exe";
 
 #ifdef MTA_DEBUG
-constexpr std::wstring_view MTA_EXE_NAME = L"MetaUkraine GTA.exe";
+constexpr std::wstring_view MTA_EXE_NAME = L"ProjectEagle GTA.exe";
 constexpr std::wstring_view CORE_DLL_NAME = L"core.dll";
 constexpr std::wstring_view NETC_DLL_NAME = L"netc.dll";
 #else
-constexpr std::wstring_view MTA_EXE_NAME = L"MetaUkraine GTA.exe";
+constexpr std::wstring_view MTA_EXE_NAME = L"ProjectEagle GTA.exe";
 constexpr std::wstring_view CORE_DLL_NAME = L"core.dll";
 constexpr std::wstring_view NETC_DLL_NAME = L"netc.dll";
 #endif

@@ -1,7 +1,7 @@
 project "Client Launcher"
 	language "C++"
 	kind "WindowedApp"
-	targetname "MetaUkraine GTA"
+	targetname "ProjectEagle GTA"
 	targetdir(buildpath("."))
 	debugdir(buildpath("."))
 

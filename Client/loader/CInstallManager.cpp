@@ -476,7 +476,7 @@ SString CInstallManager::_CheckOnRestartCommand()
 //////////////////////////////////////////////////////////
 SString CInstallManager::_MaybeSwitchToTempExe()
 {
-    // If a new "MetaUkraine GTA.exe" exists, let that complete the install
+    // If a new "ProjectEagle GTA.exe" exists, let that complete the install
     if (m_pSequencer->GetVariable(INSTALL_LOCATION) == "far")
     {
         ReleaseSingleInstanceMutex();

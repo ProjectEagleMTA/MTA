@@ -96,12 +96,15 @@ newaction {
 		if os.host() ~= "windows" and not upgrade then
 			return
 		end
-
 		local has_cef_dir = os.isdir(CEF_PATH)
+		print(has_cef_dir)
+		print(CEF_PATH)
 
 		-- Check file hash
 		local archive_path = CEF_TEMP_PATH.."temp.tar.bz2"
 		local hash_passed = os.isfile(archive_path) and os.sha256_file(archive_path) == CEF_HASH
+		print(hash_passed)
+		print(archive_path)
 		if hash_passed then
 			print("CEF consistency checks succeeded")
 

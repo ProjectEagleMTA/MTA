@@ -44,8 +44,8 @@ class CCore;
 #define DIRECTINPUT_VERSION 0x0800
 #include <dinput.h>
 
-#define BLUE_VERSION_STRING     "MetaUkraine GTA v" MTA_DM_BUILDTAG_LONG
-#define BLUE_COPYRIGHT_STRING   "Copyright (C) 2003 - %BUILD_YEAR% MetaUkraine GTA"
+#define BLUE_VERSION_STRING     "ProjectEagle GTA v" MTA_DM_BUILDTAG_LONG
+#define BLUE_COPYRIGHT_STRING   "Copyright (C) 2003 - %BUILD_YEAR% ProjectEagle GTA"
 
 // Configuration file path (relative to MTA install directory)
 #define MTA_CONFIG_PATH             "mta/config/coreconfig.xml"

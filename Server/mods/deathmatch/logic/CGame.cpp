@@ -407,7 +407,7 @@ CGame::~CGame()
 void CGame::GetTag(char* szInfoTag, int iInfoTag)
 {
     // Construct the info tag
-    SString strInfoTag("%c[%c%c%c] MetaUkraine GTA %c:%c: %d/%d players %c:%c: %u resources", 132, 135, szProgress[ucProgress], 132, 130, 130,
+    SString strInfoTag("%c[%c%c%c] ProjectEagle GTA %c:%c: %d/%d players %c:%c: %u resources", 132, 135, szProgress[ucProgress], 132, 130, 130,
                        m_pPlayerManager->Count(), m_pMainConfig->GetMaxPlayers(), 130, 130, m_pResourceManager->GetResourceLoadedCount());
 
     if (!GetConfig()->GetThreadNetEnabled())
@@ -748,7 +748,7 @@ bool CGame::Start(int iArgumentCount, char* szArguments[])
     // Show the server header
     CLogger::LogPrintfNoStamp(
         "==================================================================\n"
-        "= MetaUkraine GTA v%s\n"
+        "= ProjectEagle GTA v%s\n"
         "==================================================================\n"
         "= Server name      : %s\n"
         "= Server IP address: %s\n"
